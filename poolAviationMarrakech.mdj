@@ -2759,48 +2759,6 @@
 						},
 						{
 							"_type": "UMLDependency",
-							"_id": "AAAAAAF0oSAyooAFZBU=",
-							"_parent": {
-								"$ref": "AAAAAAF0kRx+tTW+KXk="
-							},
-							"source": {
-								"$ref": "AAAAAAF0kRx+tTW+KXk="
-							},
-							"target": {
-								"$ref": "AAAAAAF0oRIysn6zK1I="
-							},
-							"stereotype": "use"
-						},
-						{
-							"_type": "UMLDependency",
-							"_id": "AAAAAAF0oSw9O4IU9pQ=",
-							"_parent": {
-								"$ref": "AAAAAAF0kRx+tTW+KXk="
-							},
-							"name": "use",
-							"source": {
-								"$ref": "AAAAAAF0kRx+tTW+KXk="
-							},
-							"target": {
-								"$ref": "AAAAAAF0oSj2e4BaF9g="
-							}
-						},
-						{
-							"_type": "UMLDependency",
-							"_id": "AAAAAAF0oSx8IIJPHnY=",
-							"_parent": {
-								"$ref": "AAAAAAF0kRx+tTW+KXk="
-							},
-							"source": {
-								"$ref": "AAAAAAF0kRx+tTW+KXk="
-							},
-							"target": {
-								"$ref": "AAAAAAF0oSj2e4BaF9g="
-							},
-							"stereotype": "use"
-						},
-						{
-							"_type": "UMLDependency",
 							"_id": "AAAAAAF0oTc8B4WYWpY=",
 							"_parent": {
 								"$ref": "AAAAAAF0kRx+tTW+KXk="
@@ -2810,34 +2768,6 @@
 							},
 							"target": {
 								"$ref": "AAAAAAF0oTJTM4NowMM="
-							},
-							"stereotype": "use"
-						},
-						{
-							"_type": "UMLDependency",
-							"_id": "AAAAAAF0oW8ER4fzs+I=",
-							"_parent": {
-								"$ref": "AAAAAAF0kRx+tTW+KXk="
-							},
-							"source": {
-								"$ref": "AAAAAAF0kRx+tTW+KXk="
-							},
-							"target": {
-								"$ref": "AAAAAAF0oRIysn6zK1I="
-							},
-							"stereotype": "use"
-						},
-						{
-							"_type": "UMLDependency",
-							"_id": "AAAAAAF0oXtsj5F4XcY=",
-							"_parent": {
-								"$ref": "AAAAAAF0kRx+tTW+KXk="
-							},
-							"source": {
-								"$ref": "AAAAAAF0kRx+tTW+KXk="
-							},
-							"target": {
-								"$ref": "AAAAAAF0oXllG4+ZnvE="
 							},
 							"stereotype": "use"
 						}
@@ -3031,111 +2961,6 @@
 				},
 				{
 					"_type": "UMLClass",
-					"_id": "AAAAAAF0oRIysn6zK1I=",
-					"_parent": {
-						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
-					},
-					"name": "Produit",
-					"attributes": [
-						{
-							"_type": "UMLAttribute",
-							"_id": "AAAAAAF0oRJsXX8EwHk=",
-							"_parent": {
-								"$ref": "AAAAAAF0oRIysn6zK1I="
-							},
-							"name": "id",
-							"stereotype": "",
-							"visibility": "private",
-							"type": "int",
-							"isUnique": true
-						},
-						{
-							"_type": "UMLAttribute",
-							"_id": "AAAAAAF0oRKKJ38pixQ=",
-							"_parent": {
-								"$ref": "AAAAAAF0oRIysn6zK1I="
-							},
-							"name": "nomProduit",
-							"visibility": "private",
-							"type": "String"
-						}
-					],
-					"operations": [
-						{
-							"_type": "UMLOperation",
-							"_id": "AAAAAAF0oROdmX+BZOk=",
-							"_parent": {
-								"$ref": "AAAAAAF0oRIysn6zK1I="
-							},
-							"name": "getProduit",
-							"parameters": [
-								{
-									"_type": "UMLParameter",
-									"_id": "AAAAAAF0oTanwYWNu0g=",
-									"_parent": {
-										"$ref": "AAAAAAF0oROdmX+BZOk="
-									},
-									"name": "id",
-									"type": "int"
-								}
-							]
-						}
-					]
-				},
-				{
-					"_type": "UMLClass",
-					"_id": "AAAAAAF0oSj2e4BaF9g=",
-					"_parent": {
-						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
-					},
-					"name": "DepotExpedition",
-					"attributes": [
-						{
-							"_type": "UMLAttribute",
-							"_id": "AAAAAAF0oSlboICfPGE=",
-							"_parent": {
-								"$ref": "AAAAAAF0oSj2e4BaF9g="
-							},
-							"name": "id",
-							"visibility": "private",
-							"type": "int",
-							"isUnique": true
-						},
-						{
-							"_type": "UMLAttribute",
-							"_id": "AAAAAAF0oSqdjIEsvyU=",
-							"_parent": {
-								"$ref": "AAAAAAF0oSj2e4BaF9g="
-							},
-							"name": "nomDepot",
-							"visibility": "private",
-							"type": "String"
-						}
-					],
-					"operations": [
-						{
-							"_type": "UMLOperation",
-							"_id": "AAAAAAF0oStN6YGuuEo=",
-							"_parent": {
-								"$ref": "AAAAAAF0oSj2e4BaF9g="
-							},
-							"name": "getDepot",
-							"parameters": [
-								{
-									"_type": "UMLParameter",
-									"_id": "AAAAAAF0oTZMUoVvPR8=",
-									"_parent": {
-										"$ref": "AAAAAAF0oStN6YGuuEo="
-									},
-									"name": "id",
-									"type": "int"
-								}
-							]
-						}
-					]
-				},
-				{
-					"_type": "UMLClass",
 					"_id": "AAAAAAF0oTJTM4NowMM=",
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
@@ -3209,58 +3034,6 @@
 				},
 				{
 					"_type": "UMLClass",
-					"_id": "AAAAAAF0oXllG4+ZnvE=",
-					"_parent": {
-						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
-					},
-					"name": "Societe",
-					"attributes": [
-						{
-							"_type": "UMLAttribute",
-							"_id": "AAAAAAF0oXnC/o/qvPw=",
-							"_parent": {
-								"$ref": "AAAAAAF0oXllG4+ZnvE="
-							},
-							"name": "id",
-							"visibility": "private",
-							"type": "int",
-							"isUnique": true
-						},
-						{
-							"_type": "UMLAttribute",
-							"_id": "AAAAAAF0oXowrJBJp+c=",
-							"_parent": {
-								"$ref": "AAAAAAF0oXllG4+ZnvE="
-							},
-							"name": "nomSociete",
-							"visibility": "private",
-							"type": "String"
-						}
-					],
-					"operations": [
-						{
-							"_type": "UMLOperation",
-							"_id": "AAAAAAF0oXrUtpEa5Xo=",
-							"_parent": {
-								"$ref": "AAAAAAF0oXllG4+ZnvE="
-							},
-							"name": "getSociete",
-							"parameters": [
-								{
-									"_type": "UMLParameter",
-									"_id": "AAAAAAF0oXske5FGRv4=",
-									"_parent": {
-										"$ref": "AAAAAAF0oXrUtpEa5Xo="
-									},
-									"name": "id",
-									"type": "int"
-								}
-							]
-						}
-					]
-				},
-				{
-					"_type": "UMLClass",
 					"_id": "AAAAAAF0oX0Bt5KJdog=",
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
@@ -3328,22 +3101,6 @@
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
 					"name": "Cuve",
-					"ownedElements": [
-						{
-							"_type": "UMLDependency",
-							"_id": "AAAAAAF0oYIkAphxHLQ=",
-							"_parent": {
-								"$ref": "AAAAAAF0oYHD4JeomHg="
-							},
-							"source": {
-								"$ref": "AAAAAAF0oYHD4JeomHg="
-							},
-							"target": {
-								"$ref": "AAAAAAF0oRIysn6zK1I="
-							},
-							"stereotype": "use"
-						}
-					],
 					"attributes": [
 						{
 							"_type": "UMLAttribute",
@@ -3396,19 +3153,6 @@
 									"type": "int"
 								}
 							]
-						}
-					]
-				},
-				{
-					"_type": "UMLPackage",
-					"_id": "AAAAAAF0oYiXo6Jc2ok=",
-					"_parent": {
-						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
-					},
-					"name": "Package1",
-					"importedElements": [
-						{
-							"$ref": "AAAAAAF0kMKUnMcepsc="
 						}
 					]
 				}
