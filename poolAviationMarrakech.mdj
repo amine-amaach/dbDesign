@@ -2522,11 +2522,11 @@
 								"$ref": "AAAAAAFF+qBtyKM79qY="
 							},
 							"font": "Arial;13;0",
-							"left": 368,
-							"top": 456,
-							"width": 249,
+							"left": 360,
+							"top": 440,
+							"width": 257,
 							"height": 103,
-							"text": "La classe `DonneesEnvoyees` utilise la méthode `getChauffeur()` de la classe `Chauffeur` en donnant `chauffeurId` comme paramètre. La meme chose pour la classe `DonneesRecues` par rappport aux classes `Cuve` et `Avitialleur`"
+							"text": "La classe `DonneesEnvoyees` utilise la méthode `getChauffeur()` de la classe `Chauffeur` en donnant comme paramètre `chauffeurId`. La meme chose pour la classe `DonneesRecues` par rappport aux classes `Cuve` et `Avitialleur`"
 						},
 						{
 							"_type": "UMLNoteLinkView",
@@ -2542,7 +2542,7 @@
 								"$ref": "AAAAAAF0oY3FfKOqM+4="
 							},
 							"lineStyle": 1,
-							"points": "367:497;227:485"
+							"points": "359:488;227:485"
 						}
 					]
 				},
